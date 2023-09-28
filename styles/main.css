@@ -1,0 +1,106 @@
+main{
+  font-family: sans-serif, Arial, Helvetica;
+  padding-right: 7%;
+  padding-left: 7%;
+}
+
+main h1, main h2, .icons{
+    color:#3C3C3C;
+}
+
+main p, main li{
+  color: #565555;
+}
+
+/* Flex */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+  }
+ 
+div.iconsTop{
+    width: 50%;
+    text-align: center;
+}
+
+span.iconsMainTop{
+    font-size: 5rem;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 2000,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+div.containerList li{
+  margin-left: 2rem;
+}
+
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .iconsTop{
+      order: -1;
+    }
+
+  }
+
+
+/*  Naprawa - Konserwacja - Montaż */
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .item{
+    padding: 2rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #3C3C3C;
+    }
+    
+    .item-3{
+    border-width: 0px;
+    }
+
+    .item p{
+    text-align: justify;
+    }
+
+    span.iconsMain{
+        font-size: 5rem;
+        font-variation-settings:
+            'FILL' 1,
+            'wght' 2000,
+            'GRAD' 0,
+            'opsz' 24;
+    }
+/*  Naprawa - Konserwacja - Montaż */
+    
+
+@media (max-width: 1001px){
+        main {
+        padding: 100px 20px 20px 20px;
+        }
+    
+        .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .item{
+            padding: 2rem;
+            text-align: center;
+            border-style: none;
+            }
+}
+
+    

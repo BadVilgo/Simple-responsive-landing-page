@@ -1,0 +1,47 @@
+footer{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #1b9bff;
+    color: white;
+    height:500px;
+}
+
+.call-button {                /* Footer buttons */
+    color: white;
+    text-decoration: none; 
+    }
+    
+.call-button:hover {
+    color: white; /* This ensures the color remains white even when hovered over */
+    text-decoration: underline; /* Optional: underline on hover */
+    }
+    
+.email-button {
+    color: inherit;  /* This will inherit the color of its parent, or you can specify any other color */
+    text-decoration: none; 
+    }
+    
+.email-button:hover {
+    text-decoration: underline; 
+    }
+    
+.url-button {
+    color: inherit;  /* This will inherit the color of its parent, or you can specify any other color */
+    text-decoration: none; 
+    }
+    
+.url-button:hover {
+    text-decoration: underline; 
+    }
+    
+.iconsFooter {             /* Icons */
+    position: relative;
+    top:5px ;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0,
+        'opsz' 24
+    }
+
+     
