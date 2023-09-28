@@ -1,2 +1,2 @@
 Demo
-https://badvilgo.github.io/SnakeGame/
+https://badvilgo.github.io/strona_Marcin/
