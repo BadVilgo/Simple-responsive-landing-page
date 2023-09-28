@@ -1,2 +1,2 @@
 Demo
-https://badvilgo.github.io/strona_Marcin/
+https://badvilgo.github.io/stronaSerwisPiecyGazowych/
