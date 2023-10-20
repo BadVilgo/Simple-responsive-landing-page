@@ -2,5 +2,5 @@ Prosta strona gdzie stworzyłem hamburger menu i media queries by strona wyświe
 
 W CSS użyto FLEX i GRID.
 
-Demo
-https://badvilgo.github.io/hamburgerMenu_and_responsiveWebsite_CSS
+Demo:
+[https://badvilgo.github.io/hamburgerMenu_and_responsiveWebsite_CSS](https://badvilgo.github.io/Simple-responsive-landing-page/)https://badvilgo.github.io/Simple-responsive-landing-page/
